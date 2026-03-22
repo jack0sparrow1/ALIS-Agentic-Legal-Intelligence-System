@@ -42,7 +42,7 @@ Display with Reasoning Chain
 | **UI** | Streamlit |
 | **Language** | Python 3.7+ |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.7+
