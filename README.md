@@ -2,19 +2,19 @@
 
 An AI-powered conversational assistant that answers Indian legal questions using semantic search and LLM reasoning.
 
-## 🎯 Overview
+## Overview
 
 ALIS retrieves relevant legal documents using **FAISS** (Facebook AI Similarity Search) and generates explainable answers backed by specific legal sections. It combines vector embeddings, semantic search, and LLM reasoning for accurate legal Q&A.
 
-## ✨ Features
+## Features
 
-- 🔍 **Semantic Search**: Find relevant legal documents using embeddings (not keyword matching)
-- 🧠 **LLM Reasoning**: Generate accurate answers using Groq API
-- 📊 **Reasoning Graphs**: Visualize which sections are referenced
-- 💬 **Conversational**: Multi-turn chat with memory
-- ⚖️ **Legal Focus**: Trained on Indian Penal Code, IT Act 2000, CRPC
+-  **Semantic Search**: Find relevant legal documents using embeddings (not keyword matching)
+-  **LLM Reasoning**: Generate accurate answers using Groq API
+-  **Reasoning Graphs**: Visualize which sections are referenced
+-  **Conversational**: Multi-turn chat with memory
+-  **Legal Focus**: Trained on Indian Penal Code, IT Act 2000, CRPC
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Question
@@ -94,7 +94,7 @@ The system will:
 2. Generate an answer with citations
 3. Show reasoning chain with section references
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ALIS/
@@ -122,7 +122,7 @@ ALIS/
     └── INTERVIEW_GUIDE.md
 ```
 
-## 🔄 How It Works
+##  How It Works
 
 ### 1. Indexing Phase (On Startup)
 - Load 2,400+ legal documents from JSONL files
@@ -170,14 +170,14 @@ Legal domain has multiple ways to express same concept:
 | Document corpus | ~2,400 sections |
 | Query throughput | ~40 queries/sec |
 
-## 🔐 Security
+##  Security
 
-- ✅ Credentials in `.env` (never committed)
-- ✅ Uses environment variables for API keys
-- ✅ Ready for Streamlit Secrets (production)
-- ✅ No hardcoded credentials
+-  Credentials in `.env` (never committed)
+-  Uses environment variables for API keys
+-  Ready for Streamlit Secrets (production)
+-  No hardcoded credentials
 
-## 📚 Documentation
+##  Documentation
 
 Comprehensive documentation available in `docs/`:
 
@@ -186,7 +186,7 @@ Comprehensive documentation available in `docs/`:
 - **INTERVIEW_GUIDE.md**: Ready-to-use interview explanations
 - **DOCUMENTATION_INDEX.md**: Navigation guide for all docs
 
-## 🚧 Future Improvements
+##  Future Improvements
 
 - [ ] Incremental indexing for new documents
 - [ ] Hybrid search (semantic + keyword)
@@ -196,18 +196,18 @@ Comprehensive documentation available in `docs/`:
 - [ ] Caching layer for popular queries
 - [ ] Real-time corpus updates
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Please:
 1. Fork the repository
 2. Create a feature branch
 3. Send a pull request
 
-## 📝 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 🙋 Support
+##  Support
 
 For questions or issues:
 1. Check documentation in `docs/`
@@ -215,7 +215,7 @@ For questions or issues:
 3. Check existing GitHub issues
 4. Create a new issue with details
 
-## 🎯 Interview Talking Points
+##  Interview Talking Points
 
 **What**: ALIS is a legal AI system that answers Indian law questions
 **How**: Uses FAISS for semantic search + Groq LLM for reasoning
