@@ -81,7 +81,7 @@ streamlit run app.py
 
 The app will open at `http://localhost:8501`
 
-## 📖 Usage
+##  Usage
 
 Ask legal questions in natural language:
 - "What is punishment for murder?"
@@ -160,7 +160,7 @@ Legal domain has multiple ways to express same concept:
 - Pre-trained on legal + general text
 - No licensing issues
 
-## 📊 Performance
+##  Performance
 
 | Metric | Value |
 |--------|-------|
