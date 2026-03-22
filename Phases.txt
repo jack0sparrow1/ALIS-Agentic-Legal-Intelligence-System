@@ -1,0 +1,8 @@
+| Phase | Module                   | You’ll Learn                  | Output               |
+| ----- | ------------------------ | ----------------------------- | -------------------- |
+| 1     | Elastic setup & indexing | hybrid search                 | working retriever    |
+| 2     | Gemini integration       | reasoning from retrieved text | single-turn Q&A      |
+| 3     | Agent controller         | search–reason–verify loop     | multi-step AI        |
+| 4     | Memory                   | context persistence           | conversational agent |
+| 5     | Graph + verification     | structured reasoning          | explainable AI       |
+| 6     | UI + deployment          | integration                   | demo-ready system    |

@@ -1,0 +1,15 @@
+# ipykernel
+# BeautifulSoup4
+# selenium
+# webdriver-manager
+pandas
+requests
+numpy
+faiss-cpu
+sentence-transformers
+tqdm
+google-cloud-aiplatform
+vertexai
+groq
+streamlit
+python-dotenv
